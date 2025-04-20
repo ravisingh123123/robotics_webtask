@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: rgb(252, 158, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img[alt="robotics logo"] {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.div1 {
+    background-color: black;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100px;
+
+}
+
+label {
+    color: goldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+}
+
+#button:hover {
+    color: goldenrod;
+}
+#button{
+    background-color: crimson;
+    color: black;
+    border-radius: 20px;
+}
+#input{
+    border-radius: 20px;
+}
+for[name]{
+    background-color: aqua;
+    color: goldenrod;
+}
+img{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(219, 7, 7, 0.5);
+}
+.image{
+    flex-direction: row-reverse;
+}
+.div2{
+    height: 100px;
+    width: 100px;
+
+}
+.div3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 50px;
+}
+:placeholder-shown{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+/* changed the font style for placeholder */
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+h3:hover {
+    color: crimson;
+}
+::placeholder{
+    background-color: aqua;
+    color: red;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>robotics task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="top" style="display:flex; gap: 20px;">
+            <h3>Home</h3>
+            <h3>About</h3>
+            <h3>details</h3>
+            <h3>contact us</h3>
+        </div>
+        <img src="ROBO01.jpg" alt="robotics logo" width="100%" height="200px">
+    </header>
+    <div align="center" class="container" id="div1">
+        <h1> Robotics Registrations 2K25</h1>
+        <form action="robotics.php" method="post">
+            <label for="name">Team name:</label><br>
+            <input type="text" required placeholder="Enter team name"  id="input" name="name"><br><br>
+
+            <!-- for team name ,used required for essential field-->
+            <label for="leader" id="leader" name="leader " >Team leader name:</label> <br>
+            <input type="text" placeholder="Enter team leader name" required id="input" name="leader"><br><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" placeholder="Enter email address" required id="input" name="email"><br><br>
+            <label for="contact">Phone number:</label><br>
+            <input type="text" placeholder="Enter contact number" required id="input" name="contact"><br> <br>
+            <label for="college">College name:</label><br>
+            <input type="text" placeholder="Enter college name" required id="input" name="college"><br><br>
+            <label for="team">Team member 1:</label><br>
+            <input type="text"placeholder="Enter member 1 name" id="input" name="team"><br><br>
+            <label for="team">Team member 2:</label><br>
+            <input type="text" id="input" placeholder="Enter member 2 name" name="team"><br><br>
+            <label for="team">Team member 3:</label><br>
+            <input type="text"placeholder="Enter member 3 name" id="input" name="team"><br><br>
+
+            <label for="year">year:</label>
+             <select id="input" name="year">
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+                </select> <br><br> 
+                
+                
+
+
+            
+            
+            <button type="submit" id="button">submit registration</button>
+
+            <style>
+                label::after {
+                    content: " *";
+                    color: red;
+                }
+            </style>
+        </form> </div>
+        <div id="div3">
+            <p style="justify-content: flex-end;">Our achievements ✨</p>
+            
+            <img style="transform: rotate(30deg) translate(20px, 0);" src="robo1.jpg" alt="images" height="90px" width="70px">
+            <img style="transform: rotate(-30deg) translate(20px, 0);" src="robo2.jpg" alt="images" height="90px" width="70px">
+            <img style="transform: rotate(30deg) translate(20px, 0);" src="robo3.jpg" alt="images" height="90px" width="70px">
+            <img style="transform: rotate(-30deg) translate(20px, 0);" src="robo4.jpg" alt="images" height="90px" width="70px">
+            <img style="transform: rotate(30deg) translate(20px, 0);" src="robo5.jpg" alt="images" height="90px" width="70px">
+            <img style="transform: rotate(-30deg) translate(20px, 0);" src="robo6.jpg" alt="images" height="90px" width="70px">
+        </div>
+        <div id="div2" >
+            <p justify-content="flex-end"> &copy; 2025 Robotics registration</p>
+            <a href="https://www.instagram.com/roboticsclubmanit?igsh=MTlrNnBob3pmYWtudA==" target="_blank">
+                <img id="image" src="instalogo.jpeg" alt="instalogo" width="15" height="15">
+            </a>
+            <a href="https://www.linkedin.com/in/ravi-prakash-14389b31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
+                <img id="image" src="linkedin logo.png" alt="linkedinlogo" width="15" height="15"> </a>
+
+        </div>
+        
+
+</body>
+<script src="react.js" crossorigin></script>
+<script src="react.js" crossorigin></script>
+
+</html>
